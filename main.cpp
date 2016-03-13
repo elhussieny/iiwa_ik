@@ -13,11 +13,11 @@ using namespace Eigen;
 #define PI 3.1415926
 
 double kukaJoints[7];
-double D1 = 0.28134 + 0.07875;
+// DH Parameters for the KUKA. Refer to Description.png
+double D1 = 0.39;
 double D3 = 0.42;
 double D5 = 0.40;
-/// Denavit Hartenberg relevant parameters of the robot
-double D7 = 0.0766;
+double D7 = 0.126;
 double JOINT_LIMITS[] = { 170.0*PI / 180.0,
 120.0*PI / 180.0,
 170.0*PI / 180.0,
