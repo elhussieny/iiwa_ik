@@ -13,8 +13,8 @@ using namespace Eigen;
 #define PI 3.1415926
 
 double kukaJoints[7];
-// DH Parameters for the KUKA. Refer to Description.png
-double D1 = 0.39;
+// DH Parameters for the KUKA. Refer to Descriptions.png
+double D1 = 0.36;
 double D3 = 0.42;
 double D5 = 0.40;
 double D7 = 0.126;
